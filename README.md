@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "use-effect-no-deps/use-effect-no-deps": 2
+        "use-effect-no-deps/use-effect-no-deps": "warn"
     }
 }
 ```
