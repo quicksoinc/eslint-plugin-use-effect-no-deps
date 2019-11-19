@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-use-effect-no-deps",
-  "version": "0.0.0",
+  "version": "1.1.0",
   "description": "Warns a user when the react hook useEffect is called with no dependency array",
   "keywords": [
     "eslint",
@@ -9,6 +9,11 @@
   ],
   "author": "Alex Henry",
   "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "test": "mocha tests --recursive"
   },
