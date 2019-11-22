@@ -1,6 +1,8 @@
 # eslint-plugin-use-effect-no-deps
 
-Warns a user when the react hook useEffect is called with no dependency array
+Warns a user when the react hook useEffect is called with no dependency array.
+
+My team found that we rarely needed the behavior of useEffect without a dependency array as the second argument. Among the 60 usages of useEffect in our codebase, none needed the effect to run on every render of the component. This rule makes an author ensure that the behavior of useEffect with one argument is what they intended.
 
 ## Installation
 
